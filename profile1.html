@@ -88,10 +88,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
+    min-height: 50vh;
     background-color: #14141480;
 }
- 
+.icon{
+    max-width: 10%;
+}
 
 </style>
 <body>
@@ -191,8 +193,14 @@
     </div>
     
     
-    <div class="topic text-center mt-5 float-right" id="contact">
-        
+    <div class="topic text-center d-flex flex-column mt-5 " id="contact">
+        <h1><b> CONTACTS</b></h1>
+        <div>
+            <a  href="mailto:6507015@kmitl.ac.th" target="_blank"><img class="icon" src="https://cdn4.iconfinder.com/data/icons/social-media-logos-6/512/112-gmail_email_mail-512.png" alt=""></a>
+            <a  href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank"><img class="icon" src="https://cdn0.iconfinder.com/data/icons/social-rounded/72/Youtube-512.png" alt=""></a>
+            <a  href="https://www.facebook.com/pichaya.phatcharoen/" target="_blank"><img class="icon" src="https://cdn3.iconfinder.com/data/icons/social-rounded-2/72/Facebook-512.png" alt=""></a>
+            <a  href="https://www.instagram.com/pichaya.phatcharoen/" target="_blank"><img class="icon" src="https://cdn1.iconfinder.com/data/icons/social-rounded-2/32/instagram-512.png" alt=""></a>
+        </div>
     </div>
 
     <button class="totop" onclick="scrollToTop()">Back to Top</button>
