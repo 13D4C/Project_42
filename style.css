@@ -4,11 +4,7 @@ body {
     margin:0;
 }
 
-.navbar{
-    background-color: #f2f2f2;
-    padding: 10px;
-    text-align:right;
-}
+
 .hero-image {
   background-image: url("it.png"); /* Replace with your actual image path */
     background-size: cover;
